@@ -61,9 +61,9 @@ void printSpiral(int rows, int cols, int spiral[rows][cols], int size){
 }
 
 int main(){   
-   int spirals[3][3] = {1,8,7,2,9,6,3,4,5};
-   int row = sizeof(spirals[0]) / 4;
-   int col = (sizeof(spirals) / 4) / row;
+   int spirals[3][4] = {{1,10,9,8},{2,11,12,7},{3,4,5,6}};
+   int col = sizeof(spirals[0]) / 4;
+   int row = (sizeof(spirals) / 4) / col;
    
 
    printSpiral(row,col,spirals, row*col);
