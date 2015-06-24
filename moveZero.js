@@ -1,3 +1,8 @@
+/*
+   MoveZero takes an array and moves all zeroes to the end of an array
+*/
+
+
 function swap(array, index1, index2){
   var temp = array[index1];
   array[index1] = array[index2];
